@@ -1,0 +1,16 @@
+{
+  "name": "navavida",
+  "version": "0.0.1",
+  "authors": [
+    "Nathaly Nuñez <nathaly@escaleno.cl>"
+  ],
+  "main": "style.css",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

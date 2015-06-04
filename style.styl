@@ -1,0 +1,192 @@
+@import 'normalize'
+@import 'utilidades'
+@css{
+	@font-face{
+		font-family: 'navavida-font';
+		src:url('fonts/navavida-font.eot?x4ie4c');
+		src:url('fonts/navavida-font.eot?#iefixx4ie4c') format('embedded-opentype'),
+			url('fonts/navavida-font.woff?x4ie4c') format('woff'),
+			url('fonts/navavida-font.ttf?x4ie4c') format('truetype'),
+			url('fonts/navavida-font.svg?x4ie4c#navavida-font') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+	[class^="icon-"], [class*=" icon-"]{
+		font-family: 'navavida-font';
+		speak: none;
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		text-transform: none;
+		line-height: 1;
+
+		/* Better Font Rendering =========== */
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+}
+
+.icon-categoria:before
+	content "\e603"
+.icon-fb-ico:before
+	content "\e601"
+.icon-tw-ico:before
+	content "\e602"
+.icon-navavida-logo:before
+	content "\e600"
+
+/**************************/
+/*		COLORES			  */
+/**************************/
+$verde = #99BD2A
+$celeste = #009DDB
+$magenta = #D80080
+$naranja = #EF970E
+
+
+body
+	font-size 14px
+	font-family 'Oswald', sans-serif
+	line-height 120%
+
+.navbar
+	height 85px
+	.container
+		height 100%
+.top-nav
+	height 45px
+	margin 20px 0
+	width 100%
+	li
+		font-size 1.143em
+		height 45px
+		list-style none
+		text-align center
+		width 20%
+		a
+			color #1D120E
+			height 100%
+			line-height 45px
+			padding 0
+			text-transform uppercase
+			&:hover
+				background transparent
+				text-decoration underline
+.banner
+	background url("../images/banner.png") no-repeat center center
+	background-size cover
+	height 400px
+	.logo-banner
+		color white
+		display block
+		font-size 15.714em
+		margin 5.6% auto 2%
+.redes
+	li
+		display inline-block
+		list-style none
+		margin-right 5px
+		i
+			color white
+			font-size 2.857em
+		&:first-child
+			opacity .9
+		&:last-child
+			opacity .7
+			
+.title-cat
+	.glyphicon
+		font-size 1.786em
+
+.border-top-black
+	border-top 1px solid #1D120E
+.border-green
+	border 1px solid $verde
+
+.icon-categoria
+	display block
+	margin 0 auto
+	font-size 13.929em
+	position relative
+	width 0.831em
+	&:hover
+		text-decoration none
+	span
+		display block
+		font-family 'Oswald', sans-serif
+		font-size 0.077em
+		left 0
+		position absolute
+		text-align center
+		top 45%
+		width 100%
+.icon-categoria-green
+	color $verde
+.icon-categoria-blue
+	color $celeste
+.icon-categoria-magenta
+	color $magenta
+.icon-categoria-orange
+	color $naranja
+			
+/****** BUTTONS ******/
+.button
+	border 0
+	font-size 1em
+	font-weight 400
+	text-align center
+	text-transform uppercase
+.green-button
+	color white
+	background $verde
+.border-white
+	border 1px solid white
+	color $verde
+	display block
+	padding .5em
+	&:hover
+		color white
+		text-decoration none
+
+
+/********** CARROUSEL *************/
+.title-offer
+	font-size 1.143em
+.description-offer
+	min-height 280px
+	padding 30px 0
+	ul.descriptionlist
+		li
+			list-style inside 		
+.carrusel
+	min-height 350px
+	padding 0
+.carousel-indicators li
+	background $verde
+	border 0
+	margin 0 5px
+	height 15px
+	width 15px
+.carousel-indicators li.active
+	background #424040
+	height 16px
+	width 16px
+.carousel-inner
+	img
+		display block
+		margin 0 auto
+.carousel-control
+	color $verde
+.carousel-control.left,
+.carousel-control.right
+	background-image none
+	
+/*********************************/
+	
+.logo-footer
+	color white
+	font-size 5.625em
+.img-credits
+	height 34px
+	vertical-align: top;
+	width 99px
