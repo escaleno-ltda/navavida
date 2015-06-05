@@ -1,6 +1,6 @@
 {
   "name": "navavida",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     "Nathaly Nuñez <nathaly@escaleno.cl>"
   ],
@@ -13,7 +13,7 @@
     "js/imagesloaded.js",
     "js/SmoothScroll.js",
     "js/init.js",
-    "js/scrollReveal.js",
+    "js/scrollReveal.js"
   ],
   "dependencies": {
     "bootstrap": ">=3.3.4",
