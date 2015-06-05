@@ -278,11 +278,11 @@ th {
 }
 @font-face{
 		font-family: 'navavida-font';
-		src:url('fonts/navavida-font.eot?x4ie4c');
-		src:url('fonts/navavida-font.eot?#iefixx4ie4c') format('embedded-opentype'),
-			url('fonts/navavida-font.woff?x4ie4c') format('woff'),
-			url('fonts/navavida-font.ttf?x4ie4c') format('truetype'),
-			url('fonts/navavida-font.svg?x4ie4c#navavida-font') format('svg');
+		src:url('../fonts/navavida-font.eot?x4ie4c');
+		src:url('../fonts/navavida-font.eot?#iefixx4ie4c') format('embedded-opentype'),
+			url('../fonts/navavida-font.woff?x4ie4c') format('woff'),
+			url('../fonts/navavida-font.ttf?x4ie4c') format('truetype'),
+			url('../fonts/navavida-font.svg?x4ie4c#navavida-font') format('svg');
 		font-weight: normal;
 		font-style: normal;
 	}
