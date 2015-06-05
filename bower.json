@@ -1,11 +1,25 @@
 {
   "name": "navavida",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "authors": [
     "Nathaly Nuñez <nathaly@escaleno.cl>"
   ],
-  "main": "style.css",
-  "license": "MIT",
+  "main": [
+    "css/edd.css",
+    "css/kailo.css",
+    "css/green.css",
+    "css/style.css",
+    "js/masonry.js",
+    "js/imagesloaded.js",
+    "js/SmoothScroll.js",
+    "js/init.js",
+    "js/scrollReveal.js",
+  ],
+  "dependencies": {
+    "bootstrap": ">=3.3.4",
+    "font-awesome": ">=4.3.0"
+  },
+  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
