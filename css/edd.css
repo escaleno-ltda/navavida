@@ -78,7 +78,6 @@
 #edd_checkout_cart td img { float: left; margin: 0 8px 0 0; background: none; padding: 0; border: none; }
 #edd_checkout_cart input.edd-item-quantity { width: 3em; padding: 2px; }
 #edd_checkout_cart .edd_discount { display: inline-block; margin-left: 5px; }
-.edd_discount_remove { display: inline-block; width: 10px; height: 11px; background: url( images/xit.gif ) 0 0 no-repeat; position: relative; top: 3px; }
 .edd_discount_remove:hover { background-position: -10px 0; }
 #edd_checkout_cart br { display: none; }
 #edd_checkout_cart a.edd-cart-saving-button { font-weight: normal; text-decoration: none; }
@@ -138,14 +137,9 @@
 
 #edd_secure_site_wrapper { padding: 4px 4px 4px 0; font-weight: bold; }
 #edd_secure_site_wrapper span.padlock:before { content: '\f160';display: inline-block; -webkit-font-smoothing: antialiased; font: normal 20px/1 'dashicons'; vertical-align: top; }
-#edd_checkout_form_wrap input.edd-input.card-number.valid { background-image: url(images/tick.png); background-repeat: no-repeat; background-position: 98% 50%; }
 #edd_checkout_form_wrap span.exp-divider { display: inline; }
 #edd_checkout_form_wrap span.card-type { position: absolute; top: -2px; right: 0; width: 43px; height: 32px; background-size: 43px 32px!important; }
 #edd_checkout_form_wrap span.card-type.off { display:none; }
-#edd_checkout_form_wrap span.card-type.visa { background: url( images/icons/visa.gif ) no-repeat; }
-#edd_checkout_form_wrap span.card-type.mastercard { background: url( images/icons/mastercard.gif ) no-repeat; }
-#edd_checkout_form_wrap span.card-type.discover { background: url( images/icons/discover.gif ) no-repeat; }
-#edd_checkout_form_wrap span.card-type.amex { background: url( images/icons/americanexpress.gif ) no-repeat; }
 #edd_checkout_form_wrap #edd-discount-loader, #edd_checkeout_form_wrap .edd-cart-ajax { -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; }
 
 /* =Ajax Add To Cart Button
