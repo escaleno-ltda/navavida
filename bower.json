@@ -1,7 +1,7 @@
 {
   "name": "navavida",
   "description": "Tema para navavida",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "authors": [
     "Nathaly Nuñez <nathaly@escaleno.cl>"
   ],
@@ -17,7 +17,6 @@
     "./js/scrollReveal.js",
     "./fonts/EDD-Icons.dev.svg",
     "./fonts/EDD-Icons.eot",
-    "./fonts/EDD-Icons.json",
     "./fonts/EDD-Icons.svg",
     "./fonts/EDD-Icons.ttf",
     "./fonts/EDD-Icons.woff",
