@@ -1,7 +1,7 @@
 {
   "name": "navavida",
   "description": "Tema para navavida",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "authors": [
     "Nathaly Nuñez <nathaly@escaleno.cl>"
   ],
@@ -15,7 +15,20 @@
     "./js/SmoothScroll.js",
     "./js/init.js",
     "./js/scrollReveal.js",
-    "./fonts/*"
+    "./fonts/EDD-Icons.dev.svg",
+    "./fonts/EDD-Icons.eot",
+    "./fonts/EDD-Icons.json",
+    "./fonts/EDD-Icons.svg",
+    "./fonts/EDD-Icons.ttf",
+    "./fonts/EDD-Icons.woff",
+    "./fonts/navavida-font.eot",
+    "./fonts/navavida-font.svg",
+    "./fonts/navavida-font.ttf",
+    "./fonts/navavida-font.woff",
+    "./fonts/padlock.eot",
+    "./fonts/padlock.svg",
+    "./fonts/padlock.ttf",
+    "./fonts/padlock.woff"
   ],
   "dependencies": {
     "bootstrap": ">=3.3.4",
